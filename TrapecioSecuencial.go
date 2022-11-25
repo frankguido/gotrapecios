@@ -76,7 +76,7 @@ func main() {
 		ATOTAL += APARCIAL
 		fmt.Print("Area Trapecio Secuencial ", f, " : ", APARCIAL, " \n ")
 		tiempo := time.Since(start)
-		fmt.Printf("El tiempo es %s :", tiempo)
+		fmt.Printf("El tiempo es :", tiempo)
 		ttrac = int(tiempo)
 		ttotal += int(tiempo)
 		_, err2 := ff.WriteString(strconv.Itoa(f) + " " + strconv.Itoa(ttrac) + "\n")
